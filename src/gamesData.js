@@ -134,7 +134,8 @@ const gamesData = {
                }
              ]
            }
-         ]
+         ],
+         dreams: []
      }
 
 export default gamesData

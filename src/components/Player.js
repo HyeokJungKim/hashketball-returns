@@ -1,4 +1,6 @@
 import React from 'react'
+import {connect} from 'react-redux'
+import {selectPlayer} from '../redux'
 
 const Player = ({ player, selectPlayer }) => {
   return (
@@ -8,4 +10,4 @@ const Player = ({ player, selectPlayer }) => {
   )
 }
 
-export default Player
+export default connect(null, { selectPlayer })(Player)
